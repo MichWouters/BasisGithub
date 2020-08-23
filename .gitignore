@@ -1,0 +1,12 @@
+BasisGithub.csproj
+obj/BasisGithub.csproj.nuget.dgspec.json
+obj/BasisGithub.csproj.nuget.g.props
+obj/BasisGithub.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+.vs/slnx.sqlite
+obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj/Debug/netcoreapp3.1/BasisGithub.AssemblyInfo.cs
+obj/Debug/netcoreapp3.1/BasisGithub.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp3.1/BasisGithub.assets.cache
+obj/Debug/netcoreapp3.1/BasisGithub.csprojAssemblyReference.cache
