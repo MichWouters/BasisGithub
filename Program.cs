@@ -8,6 +8,8 @@ namespace BasisGithub
         {
             Console.WriteLine("Hello GitHub!");
             Console.WriteLine("How are you today?");
+            
+            Console.WriteLine("Have a safe day!");
         }
     }
 }
