@@ -13,5 +13,17 @@ namespace BasisGithub
             double converted = valueToConvert + 273.15;
             return Math.Round(converted, precision);
         }
+
+        public double KelvinToFahrenheit(double valueToConvert, int precision = 2)
+        {
+            double converted = 1.8 * (valueToConvert - 273.15) + 32;
+            return Math.Round(converted, precision);
+        }
+
+        public double CelsiusToFahrenheit(double valueToConvert, int precision = 2)
+        {
+            double converted = (valueToConvert * 1.8) + 32;
+            return Math.Round(converted, precision);
+        }
     }
 }
