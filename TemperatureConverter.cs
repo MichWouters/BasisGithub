@@ -30,14 +30,14 @@ namespace BasisGithub
 
         public double FahrenheitToKelvin(double valueToConvert, int precision = 2)
         {
-            // TODO 
-            return -1;
+            double converted = (5f / 9f) * (valueToConvert - 32) + 273.15;
+            return Math.Round(converted, precision);
         }
 
         public double FahrenheitToCelsius(double valueToConvert, int precision = 2)
         {
-            // TODO 
-            return -1;
+            double converted = (valueToConvert - 32) / 1.8;
+            return Math.Round(converted, precision);
         }
     }
 }
