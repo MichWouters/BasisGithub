@@ -2,21 +2,30 @@
 
 namespace BasisGithub
 {
-    public static class DistanceHelper
+    public class DistanceHelper
     {
-        public static double MilesToKilometers(double valueToConvert, int precision = 2)
+        public double MilesToKilometers(double valueToConvert, int precision = 2)
         {
-            throw new NotImplementedException();
+            double converted = valueToConvert * 1.60934;
+            converted = Math.Round(converted, precision);
+
+            return converted;
         }
 
-        public static double KilometersToMiles(double valueToConvert, int precision = 2)
+        public double KilometersToMiles(double valueToConvert, int precision = 2)
         {
-            throw new NotImplementedException();
+            double converted = valueToConvert * 0.62137;
+            converted = Math.Round(converted, precision);
+
+            return converted;
         }
 
-        public static double MetersToKilometers(double valueToConvert, int precision = 2)
+        public double MetersToKilometers(double valueToConvert, int precision = 2)
         {
-            throw new NotImplementedException();
+            double converted = valueToConvert / 1000;
+            converted = Math.Round(converted, precision);
+
+            return converted;
         }
     }
 }
