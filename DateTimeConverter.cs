@@ -88,14 +88,5 @@ namespace BasisGithub
                 return $"{remainingMinutes} minutes";
             }
         }
-
-
-    }
-
-    public enum TimeInterval
-    {
-        Seconds,
-        Minutes,
-        Hours
     }
 }
