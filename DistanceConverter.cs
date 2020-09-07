@@ -9,6 +9,8 @@ namespace BasisGithub
             double converted = valueToConvert * 1.60934;
             converted = Math.Round(converted, precision);
 
+            Console.WriteLine($"Result: {converted}");
+
             return converted;
         }
 
@@ -16,6 +18,8 @@ namespace BasisGithub
         {
             double converted = valueToConvert * 0.62137;
             converted = Math.Round(converted, precision);
+
+            Console.WriteLine($"Result: {converted}");
 
             return converted;
         }
@@ -25,6 +29,8 @@ namespace BasisGithub
             double converted = valueToConvert / 1000;
             converted = Math.Round(converted, precision);
 
+            Console.WriteLine($"Result: {converted}");
+
             return converted;
         }
 
@@ -32,6 +38,8 @@ namespace BasisGithub
         {
             double converted = valueToConvert * 1000;
             converted = Math.Round(converted, precision); 
+
+            Console.WriteLine($"Result: {converted}");
 
             return converted;
         }
