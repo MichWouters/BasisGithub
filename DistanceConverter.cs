@@ -2,7 +2,7 @@ using System;
 
 namespace BasisGithub
 {
-    public class DistanceHelper
+    public class DistanceConverter
     {
         public double MilesToKilometers(double valueToConvert, int precision = 2)
         {
